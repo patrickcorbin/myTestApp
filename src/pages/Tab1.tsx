@@ -19,7 +19,8 @@ const Tab1: React.FC = () => {
         <IonContent>
           <img className="logo" src="assets/BF_logo.png" alt="Birdfoot logo" />
         </IonContent>
-        <ExploreContainer name="Tab 1 page" />
+        <ExploreContainer name="Home" />
+
       </IonContent>
     </IonPage>
   );
