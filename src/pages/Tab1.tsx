@@ -5,17 +5,20 @@ import './Tab1.css';
 const Tab1: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
+      {/* <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 1</IonTitle>
+          <IonTitle>Home</IonTitle>
         </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
+      </IonHeader> */}
+      <IonContent className="ion-padding container" fullscreen>
+        {/* <IonHeader collapse="condense">
           <IonToolbar>
             <IonTitle size="large">Tab 1</IonTitle>
           </IonToolbar>
-        </IonHeader>
+        </IonHeader> */}
+        <IonContent>
+          <img className="logo" src="assets/BF_logo.png" alt="Birdfoot logo" />
+        </IonContent>
         <ExploreContainer name="Tab 1 page" />
       </IonContent>
     </IonPage>
